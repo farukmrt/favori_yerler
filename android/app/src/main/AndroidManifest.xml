@@ -4,6 +4,8 @@
         android:label="favori_yerler"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBBhR8XICTbHd7i2CNy2YrYmWXKtvY7GXI"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
